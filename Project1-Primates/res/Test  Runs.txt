@@ -1,0 +1,399 @@
+RUN 1
+*******************************************
+Welcome to Jungle Friends Primate Sanctuary
+*******************************************
+
+The available funds to construct Sanctuary: 100000 	//(The total funds initially given to the Sanctuary)
+Total Area(in metre square) of Sanctuary: 1000		//(The total area of the Sanctuary.)
+The area to be allocated for Isolation Area from: 500	//(Area allocated to Isolation.)
+The area to be allocated for Enclosure Area from: 500	//(Area allocated to Enclosure.)
+The number of Animals to be transferred initially: 5	//(The total number of animals added in sanctuary.)
+We are ready to transfer the first Batch of Animals to Isolation Chambers
+
+The following functions will be performed in order      //(Now follow the functions as they perform)
+The total number of Cages that can be accommodated in 1000 metre square: 20  //(Total number of Housing Cages made in the area.)
+1) Add an isolation
+Adding Isolation Housing				//(Adding Isolation and assigning cages to it with ids I1, I2, etc.)
+Format - Prefix I with counter, eg-I1
+
+2) Add an enclosure
+Adding Enclosure Housing				//(Adding enclosure and assigning cages to it with ids E11, E12, etc.)
+Format - Prefix E with counter, eg-E11
+
+3) Add a monkey						//(Total 5 animals and their attributes.)
+The Name of the Animal: Mike
+The species of the Animal: drill
+The gender of the Animal: male
+The size of the Animal: LARGE
+The weight of the Animal in kgs: 30
+The age of the Animal: 5
+It's Favourite Food: insects
+Monkey Details{name='Mike', species=drill, sex='male', size='LARGE', weight=30, approxAge=5, favouriteFood=insects}
+
+The Name of the Animal: daisy
+The species of the Animal: guerza
+The gender of the Animal: male
+The size of the Animal: MEDIUM
+The weight of the Animal in kgs: 25
+The age of the Animal: 4
+It's Favourite Food: leaves
+Monkey Details{name='daisy', species=guerza, sex='male', size='MEDIUM', weight=25, approxAge=4, favouriteFood=leaves}
+
+The Name of the Animal: hero
+The species of the Animal: howler
+The gender of the Animal: female
+The size of the Animal: MEDIUM
+The weight of the Animal in kgs: 15
+The age of the Animal: 10
+It's Favourite Food: seeds
+Monkey Details{name='hero', species=howler, sex='female', size='MEDIUM', weight=15, approxAge=10, favouriteFood=seeds}
+
+The Name of the Animal: messi
+The species of the Animal: saki
+The gender of the Animal: female
+The size of the Animal: SMALL
+The weight of the Animal in kgs: 50
+The age of the Animal: 12
+It's Favourite Food: seeds
+Monkey Details{name='messi', species=saki, sex='female', size='SMALL', weight=50, approxAge=12, favouriteFood=seeds}
+
+The Name of the Animal: ronaldo
+The species of the Animal: drill
+The gender of the Animal: female
+The size of the Animal: LARGE
+The weight of the Animal in kgs: 40
+The age of the Animal: 3
+It's Favourite Food: nuts
+Monkey Details{name='ronaldo', species=drill, sex='female', size='LARGE', weight=40, approxAge=3, favouriteFood=nuts}
+
+4) The current list of Monkeys after adding in Isolation
+The current state of Isolation Housings:			//(The list after their Isolation Cages are assigned upon entry.)
+{I1=drill1, I2=guerza2, I3=howler3, I4=saki4, I5=drill5}
+
+5) Transfer a monkey
+Checking if monkey the monkeys are Healthy or not.
+Monkeys Tested: Mike, hero, messi, ronaldo			//(Transfer monkeys and tell the Enclosure cages to which they are transferred.)
+
+{E11=drill1,drill5, E13=saki4, E12=howler3}
+After Transferring the monkey from Isolation to Enclosure cage
+
+6) Get list of species
+The total List of Species present in the Sanctuary		//(Get all the species list available.)
+[guerza, howler, saki, drill]
+
+7) Find a particular species
+{E11=drill1,drill5, E13=saki4, E12=howler3}			//(Finding the species and their location.)
+All the available species in the Sanctuary
+[guerza, howler, saki, drill]
+Their locations in Sanctuary
+The Species guerza is in Inclosure: I2
+The Species howler is in Enclosure Cage: E12
+The Species saki is in Enclosure Cage: E13
+The Species drill is in Enclosure Cage: E11
+
+
+8) Produce sign for each enclosure/isolation		//(For a given particular Enclosure cage - generate sign for all animals in it.)
+{E11=drill1,drill5, E13=saki4, E12=howler3}
+Sign Generation for the Enclosure E11
+Sign Generation: Mike, male, insects
+Sign Generation: ronaldo, female, nuts
+
+
+9) List all monkeys name and their location
+{E11=drill1,drill5, E13=saki4, E12=howler3}		//(Listing all the animals present in the sanctuary with their locations in Housings.)
+All the Animals present in the Sanctuary
+Monkey Name = Mike, Cage = E11
+Monkey Name = daisy, Cage = I2
+Monkey Name = hero, Cage = E12
+Monkey Name = messi, Cage = E13
+Monkey Name = ronaldo, Cage = E11
+
+
+10) Get Shopping list of all monkeys
+The Shopping List for all the monkeys int the Sanctuary  //(Generate the shopping list of all the animals with the total quantity in grams.)
+leaves - 250gms
+nuts - 500gms
+seeds - 350gms
+insects - 500gms
+
+
+11) Remove an isolation					//(Removing Isolation by their Cage ids.)
+Removing one Isolation Housing Cage No. - I1
+
+The state of the Isolation Housing after Removal	//(Status after removal of all the Isolation Cages.)
+[I2, I3, I4, I5, I6, I7, I8, I9, I10]
+
+12) Remove an enclosure					//(Removing Enclosure by their Cage ids.)
+Removing one Enclosure Housing Cage No. - E11
+
+The state of the Enclosure Housing after Removal	//(Status after removal of all the Enclosure Cages.)
+[E12, E13, E14, E15, E16, E17, E18, E19, E20]
+
+
+Process finished with exit code 0
+
+RUN 2
+*******************************************
+Welcome to Jungle Friends Primate Sanctuary
+*******************************************
+
+The available funds to construct Sanctuary: 100100
+Total Area(in metre square) of Sanctuary: 800
+The area to be allocated for Isolation Area from: 400
+The area to be allocated for Enclosure Area from: 400
+The number of Animals to be transferred initially: 5
+We are ready to transfer the first Batch of Animals to Isolation Chambers
+
+The following functions will be performed in order
+The total number of Cages that can be accommodated in 1000 metre square: 20
+1) Add an isolation
+Adding Isolation Housing
+Format - Prefix I with counter, eg-I1
+
+2) Add an enclosure
+Adding Enclosure Housing
+Format - Prefix E with counter, eg-E11
+
+3) Add a monkey
+The Name of the Animal: Mike
+The species of the Animal: drill
+The gender of the Animal: male
+The size of the Animal: LARGE
+The weight of the Animal in kgs: 20
+The age of the Animal: 6
+It's Favourite Food: fruits
+Monkey Details{name='Mike', species=drill, sex='male', size='LARGE', weight=20, approxAge=6, favouriteFood=fruits}
+
+The Name of the Animal: daisy
+The species of the Animal: guerza
+The gender of the Animal: male
+The size of the Animal: MEDIUM
+The weight of the Animal in kgs: 25
+The age of the Animal: 4
+It's Favourite Food: leaves
+Monkey Details{name='daisy', species=guerza, sex='male', size='MEDIUM', weight=25, approxAge=4, favouriteFood=leaves}
+
+The Name of the Animal: girly
+The species of the Animal: squirrel
+The gender of the Animal: female
+The size of the Animal: SMALL
+The weight of the Animal in kgs: 25
+The age of the Animal: 12
+It's Favourite Food: seeds
+Monkey Details{name='girly', species=squirrel, sex='female', size='SMALL', weight=25, approxAge=12, favouriteFood=seeds}
+
+The Name of the Animal: nemar
+The species of the Animal: mangabey
+The gender of the Animal: male
+The size of the Animal: MEDIUM
+The weight of the Animal in kgs: 60
+The age of the Animal: 14
+It's Favourite Food: seeds
+Monkey Details{name='nemar', species=mangabey, sex='male', size='MEDIUM', weight=60, approxAge=14, favouriteFood=seeds}
+
+The Name of the Animal: ronaldo
+The species of the Animal: drill
+The gender of the Animal: female
+The size of the Animal: LARGE
+The weight of the Animal in kgs: 40
+The age of the Animal: 2
+It's Favourite Food: eggs
+Monkey Details{name='ronaldo', species=drill, sex='female', size='LARGE', weight=40, approxAge=2, favouriteFood=eggs}
+
+4) The current list of Monkeys after adding in Isolation
+The current state of Isolation Housings:
+{I1=drill1, I2=guerza2, I3=squirrel3, I4=mangabey4, I5=drill5}
+
+5) Transfer a monkey
+Checking if monkey the monkeys are Healthy or not.
+Monkeys Tested: Mike, girly, nemar, ronaldo
+{E11=drill1,drill5, E13=mangabey4, E12=squirrel3}
+After Transferring the monkey from Isolation to Enclosure cage
+
+6) Get list of species
+The total List of Species present in the Sanctuary
+[guerza, squirrel, mangabey, drill]
+
+7) Find a particular species
+{E11=drill1,drill5, E13=mangabey4, E12=squirrel3}
+All the available species in the Sanctuary
+[guerza, squirrel, mangabey, drill]
+Their locations in Sanctuary
+The Species guerza is in Inclosure: I2
+The Species squirrel is in Enclosure Cage: E12
+The Species mangabey is in Enclosure Cage: E13
+The Species drill is in Enclosure Cage: E11
+
+
+8) Produce sign for each enclosure/isolation
+{E11=drill1,drill5, E13=mangabey4, E12=squirrel3}
+Sign Generation for the Enclosure E11
+Sign Generation: Mike, male, fruits
+Sign Generation: ronaldo, female, eggs
+
+
+9) List all monkeys name and their location
+{E11=drill1,drill5, E13=mangabey4, E12=squirrel3}
+All the Animals present in the Sanctuary
+Monkey Name = Mike, Cage = E11
+Monkey Name = daisy, Cage = I2
+Monkey Name = girly, Cage = E12
+Monkey Name = nemar, Cage = E13
+Monkey Name = ronaldo, Cage = E11
+
+
+10) Get Shopping list of all monkeys
+The Shopping List for all the monkeys int the Sanctuary
+eggs - 500gms
+fruits - 500gms
+leaves - 250gms
+seeds - 350gms
+
+
+11) Remove an isolation
+Removing one Isolation Housing Cage No. - I1
+
+The state of the Isolation Housing after Removal
+[I2, I3, I4, I5, I6, I7, I8, I9, I10]
+
+12) Remove an enclosure
+Removing one Enclosure Housing Cage No. - E11
+
+The state of the Enclosure Housing after Removal
+[E12, E13, E14, E15, E16, E17, E18, E19, E20]
+
+
+Process finished with exit code 0
+
+RUN 3
+*******************************************
+Welcome to Jungle Friends Primate Sanctuary
+*******************************************
+
+The available funds to construct Sanctuary: 100500
+Total Area(in metre square) of Sanctuary: 600
+The area to be allocated for Isolation Area from: 300
+The area to be allocated for Enclosure Area from: 300
+The number of Animals to be transferred initially: 5
+We are ready to transfer the first Batch of Animals to Isolation Chambers
+
+The following functions will be performed in order
+The total number of Cages that can be accommodated in 1000 metre square: 20
+1) Add an isolation
+Adding Isolation Housing
+Format - Prefix I with counter, eg-I1
+
+2) Add an enclosure
+Adding Enclosure Housing
+Format - Prefix E with counter, eg-E11
+
+3) Add a monkey
+The Name of the Animal: Saben
+The species of the Animal: drill
+The gender of the Animal: female
+The size of the Animal: LARGE
+The weight of the Animal in kgs: 20
+The age of the Animal: 5
+It's Favourite Food: fruits
+Monkey Details{name='Saben', species=drill, sex='female', size='LARGE', weight=20, approxAge=5, favouriteFood=fruits}
+
+The Name of the Animal: daisy
+The species of the Animal: guerza
+The gender of the Animal: male
+The size of the Animal: MEDIUM
+The weight of the Animal in kgs: 25
+The age of the Animal: 4
+It's Favourite Food: leaves
+Monkey Details{name='daisy', species=guerza, sex='male', size='MEDIUM', weight=25, approxAge=4, favouriteFood=leaves}
+
+The Name of the Animal: Bo
+The species of the Animal: mangabey
+The gender of the Animal: female
+The size of the Animal: LARGE
+The weight of the Animal in kgs: 20
+The age of the Animal: 10
+It's Favourite Food: seeds
+Monkey Details{name='Bo', species=mangabey, sex='female', size='LARGE', weight=20, approxAge=10, favouriteFood=seeds}
+
+The Name of the Animal: Nick
+The species of the Animal: squirrel
+The gender of the Animal: male
+The size of the Animal: SMALL
+The weight of the Animal in kgs: 55
+The age of the Animal: 12
+It's Favourite Food: seeds
+Monkey Details{name='Nick', species=squirrel, sex='male', size='SMALL', weight=55, approxAge=12, favouriteFood=seeds}
+
+The Name of the Animal: fighter
+The species of the Animal: drill
+The gender of the Animal: female
+The size of the Animal: MEDIUM
+The weight of the Animal in kgs: 45
+The age of the Animal: 3
+It's Favourite Food: insects
+Monkey Details{name='fighter', species=drill, sex='female', size='MEDIUM', weight=45, approxAge=3, favouriteFood=insects}
+
+4) The current list of Monkeys after adding in Isolation
+The current state of Isolation Housings:
+{I1=drill1, I2=guerza2, I3=mangabey3, I4=squirrel4, I5=drill5}
+
+5) Transfer a monkey
+Checking if monkey the monkeys are Healthy or not.
+Monkeys Tested: Saben, Bo, Nick, ronaldo
+{E11=drill1,drill5, E13=squirrel4, E12=mangabey3}
+After Transferring the monkey from Isolation to Enclosure cage
+
+6) Get list of species
+The total List of Species present in the Sanctuary
+[guerza, squirrel, mangabey, drill]
+
+7) Find a particular species
+{E11=drill1,drill5, E13=squirrel4, E12=mangabey3}
+All the available species in the Sanctuary
+[guerza, squirrel, mangabey, drill]
+Their locations in Sanctuary
+The Species guerza is in Inclosure: I2
+The Species squirrel is in Enclosure Cage: E13
+The Species mangabey is in Enclosure Cage: E12
+The Species drill is in Enclosure Cage: E11
+
+
+8) Produce sign for each enclosure/isolation
+{E11=drill1,drill5, E13=squirrel4, E12=mangabey3}
+Sign Generation for the Enclosure E11
+Sign Generation: Saben, female, fruits
+Sign Generation: fighter, female, insects
+
+
+9) List all monkeys name and their location
+{E11=drill1,drill5, E13=squirrel4, E12=mangabey3}
+All the Animals present in the Sanctuary
+Monkey Name = Bo, Cage = E12
+Monkey Name = Nick, Cage = E13
+Monkey Name = Saben, Cage = E11
+Monkey Name = daisy, Cage = I2
+Monkey Name = fighter, Cage = E11
+
+
+10) Get Shopping list of all monkeys
+The Shopping List for all the monkeys int the Sanctuary
+fruits - 500gms
+leaves - 250gms
+seeds - 600gms
+insects - 250gms
+
+
+11) Remove an isolation
+Removing one Isolation Housing Cage No. - I1
+
+The state of the Isolation Housing after Removal
+[I2, I3, I4, I5, I6, I7, I8, I9, I10]
+
+12) Remove an enclosure
+Removing one Enclosure Housing Cage No. - E11
+
+The state of the Enclosure Housing after Removal
+[E12, E13, E14, E15, E16, E17, E18, E19, E20]
+
+
+Process finished with exit code 0

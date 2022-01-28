@@ -1,0 +1,435 @@
+RUN 1
+
+*************************************
+* Welcome to UFC Championship Arena *
+*************************************
+Press 1 to Start a Fight or have a Rematch                       // Press 1 or 0 to Start or End Game
+Press 0 to end Game
+
+1
+Introducing the First Contender									// Player 1 Introduction.
+Player 1 Statistics:
+
+ Strength->13
+ Constitution->15												// Player 1 attributes.
+ Dexterity->18
+ Charisma->17
+
+Introducing the Second Contender								// Player 2 Introduction.
+Player 2 Statistics:
+
+ Strength->17													// Player 2 attributes.
+ Constitution->13
+ Dexterity->11
+ Charisma->15
+
+
+Entering the Battle Arena
+Player 1 requesting Weapon										// Requesing Weapon from the armory - Player 1
+ Requested Weapon: 
+ Weapon Stats: 
+Bare Hands ->4													// Weapon name and its damage value - Player 1
+
+
+Player 2 requesting Weapon										// Requesing Weapon from the armory - Player 2
+ Requested Weapon: 
+ Weapon Stats: 
+ Axes -> 9														// Weapon name and its damage value - Player 2
+
+
+The list of Equipment Bag
+[ Belt,3] [ Footwear,9] [ Footwear,6] [ Belt,3] [ Headgear,-9] [ Headgear,8] [ Headgear,-7] [ Headgear,8] [ Headgear,8] [ Headgear,8] [ Potions,4] [ Potions,-4] [ Belt,2] [ Footwear,6] [ Belt,3] [ Potions,3] [ Potions,4] [ Belt,3] [ Headgear,7] [ Belt,2] [ Potions,2] [ Footwear,5] [ Footwear,5] [ Headgear,8] [ Headgear,9] [ Footwear,-7] [ Belt,2] [ Footwear,9] [ Potions,4] [ Belt,2] [ Footwear,8] [ Footwear,5] [ Belt,4] [ Headgear,5] [ Footwear,-9] [ Headgear,9] [ Potions,2] [ Belt,4] [ Belt,3] [ Headgear,6] [ Belt,-2] [ Footwear,8] [ Belt,-2] [ Footwear,5] [ Footwear,6] [ Headgear,7] [ Belt,4] [ Potions,4] [ Headgear,8] [ Headgear,-9] [ Potions,3] [ Headgear,7] [ Headgear,9] [ Footwear,6] [ Footwear,9] [ Headgear,5] [ Headgear,5] 
+
+																// Randomly generated Equipment Bag with gears and it effective gear strength.
+
+The Players Start Choosing Randomly
+Player 1 Bag Details in Sorted order from Top to Bottom
+[ Headgear1 = 6] [ Headgear2 = 8] [ Potions1 = 4] [ Potions2 = 3] [ Potions3 = 2] [ Potions4 = 3] [ Potions5 = 3] [ Potions6 = 2] [ Potions7 = 2] [ Belt1 = 3] [ Belt2 = 4] [ Belt3 = 2] [ Belt4 = 2] [ Belt5 = 2] [ Belt6 = 4] [ Belt7 = 3] [ Footwear1 = -5] [ Footwear2 = -7] [ Footwear3 = 7] [ Footwear4 = 9] 
+Now Modified Player 1 Health after applying all the gears
+ Players Stats: 													// Assigning Player - 1, list of 20 items, sorted from top to bottom and their names assigned.
+Health -> 62														// Effective health after applying gears for player 1.
+
+Player 2 Bag Details in Sorted order from Top to Bottom
+[ Headgear1 = 7] [ Headgear2 = 7] [ Headgear3 = 7] [ Headgear4 = 5] [ Headgear5 = 7] [ Headgear6 = 9] [ Headgear7 = 9] [ Potions1 = 2] [ Potions2 = 2] [ Potions3 = 3] [ Potions4 = 2] [ Potions5 = 3] [ Potions6 = 3] [ Potions7 = 3] [ Potions8 = 2] [ Belt1 = 3] [ Belt2 = 4] [ Belt3 = -3] [ Belt4 = -3] [ Footwear1 = 9] 
+Now Modified Player 2 Health after applying all the gears
+ Players Stats: 													// Assigning Player - 2, list of 20 items, sorted from top to bottom and their names assigned.
+Health -> 64														// Effective health after applying gears for player 2.
+
+Let The Fight Begin
+The players Temporary Boost abilities will remain till 3 rounds only
+Checking Conditions to allow Smooth run of the Match								// Begin fight after checking deadlock conditions.
+
+Round No. 1
+Player 1 lands the first Hit due to Higher Charisma
+Player Attack No. = 1
+Damage Given to Player 2 = 7														// Round 1 Player 1 lands first hit due to higher charisma
+The health of Player 2 after the attack = 57
+Player 2's turn to Attack
+Player Attack No. = 1
+Damage Given to Player 1 = 7
+The health of Player 1 after the attack = 55										// respective healths remaining after damage taken.
+
+Round No. 2
+Player 1's turn to Attack
+Player Attack No. = 2
+Damage Given to Player 2 = 1
+The health of Player 2 after the attack = 56
+Player 2's turn to Attack
+Player Attack No. = 2
+Damage Given to Player 1 = 9
+The health of Player 1 after the attack = 46
+
+Round No. 3
+Player 1's turn to Attack
+Player Attack No. = 3
+Damage Given to Player 2 = 4
+The health of Player 2 after the attack = 52
+Player 2's turn to Attack
+Player Attack No. = 3
+Damage Given to Player 1 = 5
+The health of Player 1 after the attack = 41
+
+Round No. 4
+Player 1's turn to Attack
+****************************************************										// Potions effects weared off
+The Temporary Effects of Potion Gear have weared of.
+The Effective Health of Player 1 = 38
+The Effective Health of Player 2 = 49														// Health after the gear effect are gone.
+Player Attack No. = 4
+Damage Given to Player 2 = 3
+The health of Player 2 after the attack = 46
+Player 2's turn to Attack
+Player Attack No. = 4
+Damage Given to Player 1 = 4
+The health of Player 1 after the attack = 34
+
+Round No. 5
+Player 1's turn to Attack
+Player Attack No. = 5
+Damage Given to Player 2 = 1
+The health of Player 2 after the attack = 45
+Player 2's turn to Attack
+Player Attack No. = 5
+Damage Given to Player 1 = 6
+The health of Player 1 after the attack = 28
+
+Round No. 6
+Player 1's turn to Attack
+Player Attack No. = 6
+Damage Given to Player 2 = 0
+The health of Player 2 after the attack = 45
+Player 2's turn to Attack
+Player Attack No. = 6
+Damage Given to Player 1 = 4
+The health of Player 1 after the attack = 24
+
+Round No. 7
+Player 1's turn to Attack
+Player Attack No. = 7
+Damage Given to Player 2 = 5
+The health of Player 2 after the attack = 40
+Player 2's turn to Attack
+Player Attack No. = 7
+Damage Given to Player 1 = 5
+The health of Player 1 after the attack = 19
+
+Round No. 8
+Player 1's turn to Attack
+Player Attack No. = 8
+Damage Given to Player 2 = 3
+The health of Player 2 after the attack = 37
+Player 2's turn to Attack
+Player Attack No. = 8
+Damage Given to Player 1 = 6
+The health of Player 1 after the attack = 13
+
+Round No. 9
+Player 1's turn to Attack
+Player Attack No. = 9
+Damage Given to Player 2 = 4
+The health of Player 2 after the attack = 33
+Player 2's turn to Attack
+Player Attack No. = 9
+Damage Given to Player 1 = 4
+The health of Player 1 after the attack = 9
+
+Round No. 10
+Player 1's turn to Attack
+Player Attack No. = 10
+Damage Given to Player 2 = 4
+The health of Player 2 after the attack = 29
+Player 2's turn to Attack
+Player Attack No. = 10
+Damage Given to Player 1 = 4
+The health of Player 1 after the attack = 5
+
+Round No. 11
+Player 1's turn to Attack
+Player Attack No. = 11
+Damage Given to Player 2 = 3
+The health of Player 2 after the attack = 26
+Player 2's turn to Attack																// Player 1 health is 0 so the match stops and Player 2 is winner.
+Player Attack No. = 11
+Damage Given to Player 1 = 6
+The health of Player 1 after the attack = 0
+Player 2 is the Winner
+
+---------------------------------------------------
+
+RUN 2
+
+*************************************
+* Welcome to UFC Championship Arena *
+*************************************
+Press 1 to Start a Fight or have a Rematch
+Press 0 to end Game
+
+1
+Introducing the First Contender
+Player 1 Statistics:
+
+ Strength->13
+ Constitution->14
+ Dexterity->14
+ Charisma->9
+
+Introducing the Second Contender
+Player 2 Statistics:
+
+ Strength->16
+ Constitution->16
+ Dexterity->16
+ Charisma->15
+
+
+Entering the Battle Arena
+Player 1 requesting Weapon
+ Requested Weapon: 
+ Weapon Stats: 
+ Flails -> 5
+
+
+Player 2 requesting Weapon
+ Requested Weapon: 
+ Weapon Stats: 
+ Flails -> 4
+
+
+The list of Equipment Bag
+[ Potions,4] [ Potions,3] [ Belt,2] [ Belt,2] [ Potions,4] [ Potions,3] [ Footwear,-9] [ Footwear,7] [ Potions,2] [ Belt,2] [ Headgear,5] [ Footwear,7] [ Footwear,-7] [ Footwear,9] [ Potions,2] [ Headgear,8] [ Potions,2] [ Belt,2] [ Footwear,7] [ Headgear,6] [ Headgear,5] [ Headgear,8] [ Footwear,9] [ Belt,3] [ Belt,3] [ Belt,2] [ Potions,4] [ Belt,-4] [ Footwear,9] [ Belt,3] [ Headgear,6] [ Footwear,8] [ Headgear,6] [ Belt,4] [ Headgear,7] [ Belt,4] [ Headgear,-5] [ Belt,-4] [ Belt,4] [ Footwear,8] [ Headgear,9] [ Headgear,7] [ Belt,3] [ Potions,3] [ Potions,2] [ Footwear,9] [ Footwear,9] 
+
+
+The Players Start Choosing Randomly
+Player 1 Bag Details in Sorted order from Top to Bottom
+[ Headgear1 = 7] [ Headgear2 = 9] [ Headgear3 = -8] [ Headgear4 = -6] [ Headgear5 = 6] [ Headgear6 = -6] [ Headgear7 = 6] [ Potions1 = 3] [ Potions2 = 3] [ Potions3 = 2] [ Potions4 = 2] [ Potions5 = 4] [ Potions6 = 4] [ Potions7 = 4] [ Potions8 = -3] [ Belt1 = 3] [ Belt2 = 2] [ Footwear1 = 7] [ Footwear2 = 9] [ Footwear3 = 8] 
+Now Modified Player 1 Health after applying all the gears
+ Players Stats: 
+Health -> 53
+
+Player 2 Bag Details in Sorted order from Top to Bottom
+[ Headgear1 = 8] [ Headgear2 = 5] [ Headgear3 = 6] [ Potions1 = -3] [ Potions2 = 3] [ Potions3 = 3] [ Potions4 = 3] [ Potions5 = 4] [ Belt1 = -3] [ Belt2 = -2] [ Belt3 = 4] [ Belt4 = -4] [ Belt5 = -3] [ Belt6 = 3] [ Footwear1 = 6] [ Footwear2 = 6] [ Footwear3 = 5] [ Footwear4 = 7] [ Footwear5 = 8] [ Footwear6 = -5] 
+Now Modified Player 2 Health after applying all the gears
+ Players Stats: 
+Health -> 49
+
+Let The Fight Begin
+The players Temporary Boost abilities will remain till 3 rounds only
+Checking Conditions to allow Smooth run of the Match
+
+Round No. 1
+Player 2 lands the first Hit due to Higher Charisma
+Player Attack No.  = 1
+Damage Given to Player 1 = 7
+The health of Player 1 after the attack = 46
+Player 1's turn to attack
+Player Attack No. = 1
+Damage Given to Player 2 = 5
+The health of Player 2 after the attack = 44
+
+Next Round
+
+Round No. 2
+Player 2's turn to attack
+Player Attack No.  = 2
+Damage Given to Player 1 = 6
+The health of Player 1 after the attack = 40
+Player 1's turn to attack
+Player Attack No. = 2
+Damage Given to Player 2 = 5
+The health of Player 2 after the attack = 39
+
+Next Round
+
+Round No. 3
+Player 2's turn to attack
+Player Attack No.  = 3
+Damage Given to Player 1 = 5
+The health of Player 1 after the attack = 35
+Player 1's turn to attack
+Player Attack No. = 3
+Damage Given to Player 2 = 12
+The health of Player 2 after the attack = 27
+
+Next Round
+
+Round No. 4
+Player 2's turn to attack
+****************************************************
+The Temporary Effects of Potion Gear have weared of.
+The Effective Health of Player 1 = 31
+The Effective Health of Player 2 = 23
+Player Attack No.  = 4
+Damage Given to Player 1 = 7
+The health of Player 1 after the attack = 24
+Player 1's turn to attack
+Player Attack No. = 4
+Damage Given to Player 2 = 12
+The health of Player 2 after the attack = 11
+
+Next Round
+
+Round No. 5
+Player 2's turn to attack
+Player Attack No.  = 5
+Damage Given to Player 1 = 7
+The health of Player 1 after the attack = 17
+Player 1's turn to attack
+Player Attack No. = 5
+Damage Given to Player 2 = 13
+The health of Player 2 after the attack = 0
+Player 1 is the Winner
+
+
+------------------------------------------------------
+
+RUN 3
+
+*************************************
+* Welcome to UFC Championship Arena *
+*************************************
+Press 1 to Start a Fight or have a Rematch
+Press 0 to end Game
+
+1
+Introducing the First Contender
+Player 1 Statistics:
+
+ Strength->15
+ Constitution->14
+ Dexterity->14
+ Charisma->11
+
+Introducing the Second Contender
+Player 2 Statistics:
+
+ Strength->13
+ Constitution->12
+ Dexterity->14
+ Charisma->15
+
+
+Entering the Battle Arena
+Player 1 requesting Weapon
+ Requested Weapon: 
+ Weapon Stats: 
+ Katana -> 5
+ Type -> Single
+
+
+Player 2 requesting Weapon
+ Requested Weapon: 
+ Weapon Stats: 
+ Flails -> 4
+
+
+The list of Equipment Bag
+[ Footwear,5] [ Headgear,9] [ Belt,-4] [ Potions,3] [ Potions,-3] [ Footwear,9] [ Potions,3] [ Headgear,9] [ Potions,2] [ Belt,-3] [ Belt,4] [ Belt,2] [ Headgear,-5] [ Headgear,9] [ Footwear,6] [ Belt,4] [ Potions,-2] [ Belt,2] [ Potions,3] [ Footwear,-8] [ Belt,4] [ Potions,-4] [ Belt,3] [ Headgear,6] [ Potions,-4] [ Headgear,-5] [ Footwear,-9] [ Potions,3] [ Belt,3] [ Headgear,6] [ Footwear,5] [ Footwear,6] [ Headgear,8] [ Headgear,-7] [ Headgear,6] [ Potions,-2] [ Footwear,8] [ Belt,2] [ Footwear,7] [ Footwear,9] [ Potions,4] [ Belt,4] [ Footwear,9] [ Belt,3] [ Footwear,8] [ Potions,2] [ Belt,4] [ Potions,3] 
+
+
+The Players Start Choosing Randomly
+Player 1 Bag Details in Sorted order from Top to Bottom
+[ Headgear1 = -8] [ Headgear2 = -6] [ Headgear3 = 8] [ Headgear4 = -8] [ Potions1 = 4] [ Potions2 = 3] [ Potions3 = 4] [ Potions4 = -2] [ Potions5 = 4] [ Potions6 = -2] [ Belt1 = 4] [ Belt2 = 4] [ Belt3 = 2] [ Belt4 = 2] [ Belt5 = 3] [ Belt6 = 4] [ Belt7 = 4] [ Belt8 = 3] [ Footwear1 = 8] [ Footwear2 = -7] 
+Now Modified Player 1 Health after applying all the gears
+ Players Stats: 
+Health -> 51
+
+Player 2 Bag Details in Sorted order from Top to Bottom
+[ Headgear1 = -9] [ Headgear2 = 6] [ Headgear3 = -6] [ Potions1 = 2] [ Potions2 = 2] [ Potions3 = 4] [ Potions4 = 3] [ Potions5 = 2] [ Potions6 = 4] [ Potions7 = 3] [ Belt1 = 2] [ Belt2 = 4] [ Belt3 = 4] [ Belt4 = 3] [ Belt5 = -3] [ Footwear1 = -9] [ Footwear2 = 8] [ Footwear3 = 6] [ Footwear4 = 9] [ Footwear5 = 8] 
+Now Modified Player 2 Health after applying all the gears
+ Players Stats: 
+Health -> 60
+
+Let The Fight Begin
+The players Temporary Boost abilities will remain till 3 rounds only
+Checking Conditions to allow Smooth run of the Match
+
+Round No. 1
+Player 2 lands the first Hit due to Higher Charisma
+Player Attack No.  = 1
+Damage Given to Player 1 = 6
+The health of Player 1 after the attack = 45
+Player 1's turn to attack
+Player Attack No. = 1
+Damage Given to Player 2 = 3
+The health of Player 2 after the attack = 57
+
+Next Round
+
+Round No. 2
+Player 2's turn to attack
+Player Attack No.  = 2
+Damage Given to Player 1 = 12
+The health of Player 1 after the attack = 33
+Player 1's turn to attack
+Player Attack No. = 2
+Damage Given to Player 2 = 3
+The health of Player 2 after the attack = 54
+
+Next Round
+
+Round No. 3
+Player 2's turn to attack
+Player Attack No.  = 3
+Damage Given to Player 1 = 10
+The health of Player 1 after the attack = 23
+Player 1's turn to attack
+Player Attack No. = 3
+Damage Given to Player 2 = 6
+The health of Player 2 after the attack = 48
+
+Next Round
+
+Round No. 4
+Player 2's turn to attack
+****************************************************
+The Temporary Effects of Potion Gear have weared of.
+The Effective Health of Player 1 = 20
+The Effective Health of Player 2 = 44
+Player Attack No.  = 4
+Damage Given to Player 1 = 7
+The health of Player 1 after the attack = 13
+Player 1's turn to attack
+Player Attack No. = 4
+Damage Given to Player 2 = 3
+The health of Player 2 after the attack = 41
+
+Next Round
+
+Round No. 5
+Player 2's turn to attack
+Player Attack No.  = 5
+Damage Given to Player 1 = 10
+The health of Player 1 after the attack = 3
+Player 1's turn to attack
+Player Attack No. = 5
+Damage Given to Player 2 = 9
+The health of Player 2 after the attack = 32
+
+Next Round
+
+Round No. 6
+Player 2's turn to attack
+Player Attack No.  = 6
+Damage Given to Player 1 = 13
+The health of Player 1 after the attack = 0
+Player 2 is the Winner

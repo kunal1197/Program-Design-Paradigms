@@ -1,0 +1,932 @@
+RUN 1 													
+cli -> java -jar "Project 4.jar" "Kunal" 4 4 2 true 50 5
+
+***************************
+* Welcome to Dungeon Game *                  //The run where player moves freely, picks up treasure and arrow, shoots monster
+***************************                  //Then reaches the end point to Win the Game.
+Enter Your Name                              //Dungeon Config - Wrapping, Interconnectivity - 2
+Kunal
+Enter the Dungeon Length
+4
+Enter the Dungeon Breadth
+4
+Enter the Interconnectivity Degree
+2
+Is is Wrapping or not? true : false
+true
+Enter the Treasure Percentage you want in the Caves
+50
+Enter the Number of Monsters you want in the Caves
+5
+---------------------
+The Generated Dungeon
+  0T--    1C--    2T      3C    
+        |     |               
+--4C--    5T--    6C      7T    
+        |             |       
+  8T--    9T      10C     11T   
+              |       |      |      
+  12C--   13C     14C--   15C   
+              |      |      |      
+
+
+
+The Connections of each Node.
+Node - 0, Edges -> [1, 4]
+Node - 1, Edges -> [0, 5, 2, 13]
+Node - 2, Edges -> [14, 1]
+Node - 3, Edges -> [15]
+Node - 4, Edges -> [8, 0, 7]
+Node - 5, Edges -> [6, 1]
+Node - 6, Edges -> [5]
+Node - 7, Edges -> [11, 4]
+Node - 8, Edges -> [9, 4]
+Node - 9, Edges -> [13, 8]
+Node - 10, Edges -> [14]
+Node - 11, Edges -> [15, 7]
+Node - 12, Edges -> [13]
+Node - 13, Edges -> [9, 12, 1]
+Node - 14, Edges -> [10, 2, 15]
+Node - 15, Edges -> [3, 11, 14]
+
+The Random Starting Point
+15
+
+The Random Ending Point
+12
+
+Treasure Populated in Dungeon
+Node-0 Tunnel - []
+Node-1 Cave - [SAPPHIRE, DIAMOND, RUBY]
+Node-2 Tunnel - []
+Node-3 Cave - [DIAMOND, RUBY, DIAMOND]
+Node-4 Cave - [SAPPHIRE]
+Node-5 Tunnel - []
+Node-6 Cave - []
+Node-7 Tunnel - []
+Node-8 Tunnel - []
+Node-9 Tunnel - []
+Node-10 Cave - []
+Node-11 Tunnel - []
+Node-12 Cave - []
+Node-13 Cave - []
+Node-14 Cave - []
+Node-15 Cave - []
+
+Arrows populated in the Dungeon
+Node-0 No Arrow
+Node-1 No Arrow
+Node-2 2 Arrow
+Node-3 No Arrow
+Node-4 3 Arrow
+Node-5 No Arrow
+Node-6 2 Arrow
+Node-7 3 Arrow
+Node-8 1 Arrow
+Node-9 1 Arrow
+Node-10 No Arrow
+Node-11 3 Arrow
+Node-12 No Arrow
+Node-13 No Arrow
+Node-14 No Arrow
+Node-15 3 Arrow
+
+Otyugh Locations inside the Dungeon
+Cave - 0
+Cave - 1
+Cave - 10
+Cave - 6
+Cave - 12
+
+The Minimum Distance from Start to End Point
+5
+
+The Suggested Path from Start to End Point
+15->14->2->1->13->12
+
+You are in a Cave
+You can smell something more Pungent nearby
+The Player's Location is 15 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+3
+The number of arrows the player has
+3
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[S, N, W]
+Move, Pickup, or Shoot (M-P-S)?
+S
+
+Enter the Distance you want to shoot
+1
+
+Where do you want to shoot?
+Enter the Direction
+W
+Arrow shot in the dark
+Otyugh Hit by Arrow
+Otyugh Health is 50
+
+You are in a Cave
+You can smell something more Pungent nearby
+The Player's Location is 15 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+3
+The number of arrows the player has
+2
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[S, N, W]
+Move, Pickup, or Shoot (M-P-S)?
+S
+
+Enter the Distance you want to shoot
+1
+
+Where do you want to shoot?
+Enter the Direction
+W
+Arrow shot in the dark
+Otyugh Hit by Arrow
+Otyugh is Dead
+
+You are in a Cave
+No smell nearby
+The Player's Location is 15 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+3
+The number of arrows the player has
+1
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[S, N, W]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+3 will lead to S
+11 will lead to N
+14 will lead to W
+Enter Cell Number you want to go next
+14
+
+You are in a Cave
+No smell nearby
+The Player's Location is 14 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+0
+The number of arrows the player has
+1
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[N, S, E]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+10 will lead to N
+2 will lead to S
+15 will lead to E
+Enter Cell Number you want to go next
+2
+
+You are in a Tunnel
+You can smell something less Pungent nearby
+The Player's Location is 2 Node
+You find all these gems here
+Tunnel - []
+The number of arrows you find here
+2
+The number of arrows the player has
+1
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[N, W]
+Move, Pickup, or Shoot (M-P-S)?
+P
+
+What do you want to pick?
+ Press 1 for treasure
+ Press 2 for arrow
+ Press 3 for both
+2
+
+You have picked up all the arrows
+
+You are in a Tunnel
+You can smell something less Pungent nearby
+The Player's Location is 2 Node
+You find all these gems here
+Tunnel - []
+The number of arrows you find here
+0
+The number of arrows the player has
+3
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[N, W]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+14 will lead to N
+1 will lead to W
+Enter Cell Number you want to go next
+1
+
+
+You are in a Cave
+You can smell multiple smells more Pungent nearby
+The Player's Location is 1 Node
+You find all these gems here
+Cave - [SAPPHIRE, DIAMOND, RUBY]
+The number of arrows you find here
+0
+The number of arrows the player has
+3
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[W, S, E, N]
+Move, Pickup, or Shoot (M-P-S)?
+P
+
+What do you want to pick?
+ Press 1 for treasure
+ Press 2 for arrow
+ Press 3 for both
+1
+
+You have picked up all the treasures
+
+You are in a Cave
+You can smell multiple smells more Pungent nearby
+The Player's Location is 1 Node
+You find all these gems here
+Cave - [DIAMOND]
+The number of arrows you find here
+0
+The number of arrows the player has
+3
+The number of Gems the player has
+{DIAMOND=0, RUBY=1, SAPPHIRE=1}
+Doors Lead to
+[W, S, E, N]
+Move, Pickup, or Shoot (M-P-S)?
+P
+
+What do you want to pick?
+ Press 1 for treasure
+ Press 2 for arrow
+ Press 3 for both
+1
+
+You have picked up all the treasures
+
+You are in a Cave
+You can smell multiple smells more Pungent nearby
+The Player's Location is 1 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+0
+The number of arrows the player has
+3
+The number of Gems the player has
+{DIAMOND=1, RUBY=1, SAPPHIRE=1}
+Doors Lead to
+[W, S, E, N]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+0 will lead to W
+5 will lead to S
+2 will lead to E
+13 will lead to N
+Enter Cell Number you want to go next
+13
+
+
+You are in a Cave
+You can smell something more Pungent nearby
+The Player's Location is 13 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+0
+The number of arrows the player has
+3
+The number of Gems the player has
+{DIAMOND=1, RUBY=1, SAPPHIRE=1}
+Doors Lead to
+[N, W, S]
+Move, Pickup, or Shoot (M-P-S)?
+S
+
+Enter the Distance you want to shoot
+1
+
+Where do you want to shoot?
+Enter the Direction
+W
+Arrow shot in the dark
+Otyugh Hit by Arrow
+Otyugh Health is 50
+
+You are in a Cave
+You can smell something more Pungent nearby
+The Player's Location is 13 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+0
+The number of arrows the player has
+2
+The number of Gems the player has
+{DIAMOND=1, RUBY=1, SAPPHIRE=1}
+Doors Lead to
+[N, W, S]
+Move, Pickup, or Shoot (M-P-S)?
+S
+
+Enter the Distance you want to shoot
+1
+
+Where do you want to shoot?
+Enter the Direction
+W
+Arrow shot in the dark
+Otyugh Hit by Arrow
+Otyugh is Dead
+
+You are in a Cave
+You can smell something less Pungent nearby
+The Player's Location is 13 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+0
+The number of arrows the player has
+1
+The number of Gems the player has
+{DIAMOND=1, RUBY=1, SAPPHIRE=1}
+Doors Lead to
+[N, W, S]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+9 will lead to N
+12 will lead to W
+1 will lead to S
+Enter Cell Number you want to go next
+12
+
+The player has reached end point
+Game Over!!
+Process finished with exit code 0
+
+********************************************************
+RUN 2
+cli -> java -jar "Project 4.jar" "Kunal" 4 4 0 true 60 5
+
+***************************
+* Welcome to Dungeon Game *                 //The run where player moves freely, picks up arrow.
+***************************                 //Then the monster is killed by reaching the node where the monster is present.
+Enter Your Name				    //Dungeon Config - Wrapping, Interconnectivity - 0										
+Kunal
+Enter the Dungeon Length
+4
+Enter the Dungeon Breadth
+4
+Enter the Interconnectivity Degree
+0
+Is is Wrapping or not? true : false
+true
+Enter the Treasure Percentage you want in the Caves
+60
+Enter the Number of Monsters you want in the Caves
+5
+---------------------
+The Generated Dungeon
+  0T--    1T      2C      3C    
+           |     |                 
+--4C--    5T--    6C      7T    
+        |             |       
+  8T--    9T      10C     11T   
+              |       |      |      
+  12C--   13T     14C--   15C   
+                  |      |      
+
+
+
+The Connections of each Node.
+Node - 0, Edges -> [1, 4]
+Node - 1, Edges -> [0, 5]
+Node - 2, Edges -> [14]
+Node - 3, Edges -> [15]
+Node - 4, Edges -> [8, 0, 7]
+Node - 5, Edges -> [6, 1]
+Node - 6, Edges -> [5]
+Node - 7, Edges -> [11, 4]
+Node - 8, Edges -> [9, 4]
+Node - 9, Edges -> [13, 8]
+Node - 10, Edges -> [14]
+Node - 11, Edges -> [15, 7]
+Node - 12, Edges -> [13]
+Node - 13, Edges -> [9, 12]
+Node - 14, Edges -> [10, 2, 15]
+Node - 15, Edges -> [3, 11, 14]
+
+The Random Starting Point
+10
+
+The Random Ending Point
+12
+
+Treasure Populated in Dungeon
+Node-0 Tunnel - []
+Node-1 Tunnel - []
+Node-2 Cave - [RUBY, DIAMOND]
+Node-3 Cave - [DIAMOND, SAPPHIRE]
+Node-4 Cave - [SAPPHIRE, SAPPHIRE]
+Node-5 Tunnel - []
+Node-6 Cave - []
+Node-7 Tunnel - []
+Node-8 Tunnel - []
+Node-9 Tunnel - []
+Node-10 Cave - []
+Node-11 Tunnel - []
+Node-12 Cave - []
+Node-13 Tunnel - []
+Node-14 Cave - []
+Node-15 Cave - []
+
+Arrows populated in the Dungeon
+Node-0 No Arrow
+Node-1 3 Arrow
+Node-2 2 Arrow
+Node-3 3 Arrow
+Node-4 No Arrow
+Node-5 2 Arrow
+Node-6 3 Arrow
+Node-7 No Arrow
+Node-8 1 Arrow
+Node-9 No Arrow
+Node-10 2 Arrow
+Node-11 No Arrow
+Node-12 1 Arrow
+Node-13 No Arrow
+Node-14 No Arrow
+Node-15 3 Arrow
+
+Otyugh Locations inside the Dungeon
+Cave - 0
+Cave - 2
+Cave - 15
+Cave - 6
+Cave - 12
+
+The Minimum Distance from Start to End Point
+9
+
+The Suggested Path from Start to End Point
+10->14->15->11->7->4->8->9->13->12
+
+You are in a Cave
+You can smell multiple smells more Pungent nearby
+The Player's Location is 10 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+2
+The number of arrows the player has
+3
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[S]
+Move, Pickup, or Shoot (M-P-S)?
+P
+
+What do you want to pick?
+ Press 1 for treasure
+ Press 2 for arrow
+ Press 3 for both
+2
+
+You have picked up all the arrows
+
+You are in a Cave
+You can smell multiple smells more Pungent nearby
+The Player's Location is 10 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+0
+The number of arrows the player has
+5
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[S]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+14 will lead to S
+Enter Cell Number you want to go next
+14
+
+You are in a Cave
+You can smell something more Pungent nearby
+The Player's Location is 14 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+0
+The number of arrows the player has
+5
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[N, S, E]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+10 will lead to N
+2 will lead to S
+15 will lead to E
+Enter Cell Number you want to go next
+15
+
+Player is in a Cave with Otyugh
+You have been killed by the Otyugh
+Game Over!!
+Process finished with exit code 0
+
+*********************************************************
+RUN 3
+cli -> java -jar "Project 4.jar" "Kunal" 4 4 2 false 50 5
+
+***************************
+* Welcome to Dungeon Game *              //The run where player moves freely, picks up arrow, treasures and shoots monster.
+***************************              //Enter the node with injured monster and test his luck of survival.
+Enter Your Name                          //The player survives and wins the game by reaching the end point.
+Kunal                                    //Dungeon Specification - Non Wrapping, Interconnectivity - 2
+Enter the Dungeon Length
+4
+Enter the Dungeon Breadth
+4
+Enter the Interconnectivity Degree
+2
+Is is Wrapping or not? true : false
+false
+Enter the Treasure Percentage you want in the Caves
+50
+Enter the Number of Monsters you want in the Caves
+5
+---------------------
+The Generated Dungeon
+  0T--    1C      2T--    3T    
+        |          |     |       
+  4T--    5T      6C--    7C    
+           |       |     |       
+  8T--    9C--    10C--   11T   
+     |     |     |        
+  12C     13C     14T--   15C   
+
+
+
+The Connections of each Node.
+Node - 0, Edges -> [1, 4]
+Node - 1, Edges -> [0]
+Node - 2, Edges -> [3, 6]
+Node - 3, Edges -> [7, 2]
+Node - 4, Edges -> [5, 0]
+Node - 5, Edges -> [4, 9]
+Node - 6, Edges -> [10, 7, 2]
+Node - 7, Edges -> [3, 11, 6]
+Node - 8, Edges -> [12, 9]
+Node - 9, Edges -> [5, 10, 13, 8]
+Node - 10, Edges -> [6, 9, 14, 11]
+Node - 11, Edges -> [7, 10]
+Node - 12, Edges -> [8]
+Node - 13, Edges -> [9]
+Node - 14, Edges -> [15, 10]
+Node - 15, Edges -> [14]
+
+The Random Starting Point
+4
+
+The Random Ending Point
+15
+
+Treasure Populated in Dungeon
+Node-0 Tunnel - []
+Node-1 Cave - [DIAMOND, RUBY, SAPPHIRE]
+Node-2 Tunnel - []
+Node-3 Tunnel - []
+Node-4 Tunnel - []
+Node-5 Tunnel - []
+Node-6 Cave - [RUBY, DIAMOND, SAPPHIRE]
+Node-7 Cave - [DIAMOND, DIAMOND, RUBY]
+Node-8 Tunnel - []
+Node-9 Cave - [SAPPHIRE, DIAMOND]
+Node-10 Cave - []
+Node-11 Tunnel - []
+Node-12 Cave - []
+Node-13 Cave - []
+Node-14 Tunnel - []
+Node-15 Cave - []
+
+Arrows populated in the Dungeon
+Node-0 No Arrow
+Node-1 No Arrow
+Node-2 No Arrow
+Node-3 No Arrow
+Node-4 2 Arrow
+Node-5 No Arrow
+Node-6 1 Arrow
+Node-7 1 Arrow
+Node-8 No Arrow
+Node-9 No Arrow
+Node-10 2 Arrow
+Node-11 3 Arrow
+Node-12 3 Arrow
+Node-13 2 Arrow
+Node-14 No Arrow
+Node-15 2 Arrow
+
+Otyugh Locations inside the Dungeon
+Cave - 0
+Cave - 6
+Cave - 12
+Cave - 1
+Cave - 15
+
+The Minimum Distance from Start to End Point
+5
+
+The Suggested Path from Start to End Point
+4->5->9->10->14->15
+
+You are in a Tunnel
+You can smell something more Pungent nearby
+The Player's Location is 4 Node
+You find all these gems here
+Tunnel - []
+The number of arrows you find here
+2
+The number of arrows the player has
+3
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[E, N]
+Move, Pickup, or Shoot (M-P-S)?
+P
+
+What do you want to pick?
+ Press 1 for treasure
+ Press 2 for arrow
+ Press 3 for both
+2
+
+You have picked up all the arrows
+
+You are in a Tunnel
+You can smell something more Pungent nearby
+The Player's Location is 4 Node
+You find all these gems here
+Tunnel - []
+The number of arrows you find here
+0
+The number of arrows the player has
+5
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[E, N]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+5 will lead to E
+0 will lead to N
+Enter Cell Number you want to go next
+5
+
+You are in a Tunnel
+You can smell something less Pungent nearby
+The Player's Location is 5 Node
+You find all these gems here
+Tunnel - []
+The number of arrows you find here
+0
+The number of arrows the player has
+5
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[W, S]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+4 will lead to W
+9 will lead to S
+Enter Cell Number you want to go next
+9
+
+You are in a Cave
+You can smell multiple smells more Pungent nearby
+The Player's Location is 9 Node
+You find all these gems here
+Cave - [SAPPHIRE, DIAMOND]
+The number of arrows you find here
+0
+The number of arrows the player has
+5
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=0}
+Doors Lead to
+[N, E, S, W]
+Move, Pickup, or Shoot (M-P-S)?
+P
+
+What do you want to pick?
+ Press 1 for treasure
+ Press 2 for arrow
+ Press 3 for both
+1
+
+You have picked up all the treasures
+
+You are in a Cave
+You can smell multiple smells more Pungent nearby
+The Player's Location is 9 Node
+You find all these gems here
+Cave - [DIAMOND]
+The number of arrows you find here
+0
+The number of arrows the player has
+5
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=1}
+Doors Lead to
+[N, E, S, W]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+5 will lead to N
+10 will lead to E
+13 will lead to S
+8 will lead to W
+Enter Cell Number you want to go next
+10
+
+You are in a Cave
+You can smell something more Pungent nearby
+The Player's Location is 10 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+2
+The number of arrows the player has
+5
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=1}
+Doors Lead to
+[N, W, S, E]
+Move, Pickup, or Shoot (M-P-S)?
+P
+
+What do you want to pick?
+ Press 1 for treasure
+ Press 2 for arrow
+ Press 3 for both
+1
+
+You have picked up all the treasures
+
+You are in a Cave
+You can smell something more Pungent nearby
+The Player's Location is 10 Node
+You find all these gems here
+Cave - []
+The number of arrows you find here
+2
+The number of arrows the player has
+5
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=1}
+Doors Lead to
+[N, W, S, E]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+6 will lead to N
+9 will lead to W
+14 will lead to S
+11 will lead to E
+Enter Cell Number you want to go next
+14
+
+You are in a Tunnel
+You can smell something more Pungent nearby
+The Player's Location is 14 Node
+You find all these gems here
+Tunnel - []
+The number of arrows you find here
+0
+The number of arrows the player has
+5
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=1}
+Doors Lead to
+[E, N]
+Move, Pickup, or Shoot (M-P-S)?
+S
+
+Enter the Distance you want to shoot
+1
+
+Where do you want to shoot?
+Enter the Direction
+E
+Arrow shot in the dark
+Otyugh Hit by Arrow
+Otyugh Health is 50
+
+You are in a Tunnel
+You can smell something more Pungent nearby
+The Player's Location is 14 Node
+You find all these gems here
+Tunnel - []
+The number of arrows you find here
+0
+The number of arrows the player has
+4
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=1}
+Doors Lead to
+[E, N]
+Move, Pickup, or Shoot (M-P-S)?
+S
+
+Enter the Distance you want to shoot
+1
+
+Where do you want to shoot?
+Enter the Direction
+W
+Arrow Shot and it hit the wall
+
+You are in a Tunnel
+You can smell something more Pungent nearby
+The Player's Location is 14 Node
+You find all these gems here
+Tunnel - []
+The number of arrows you find here
+0
+The number of arrows the player has
+3
+The number of Gems the player has
+{DIAMOND=0, RUBY=0, SAPPHIRE=1}
+Doors Lead to
+[E, N]
+Move, Pickup, or Shoot (M-P-S)?
+M
+
+Where do you want to go? 
+15 will lead to E
+10 will lead to N
+Enter Cell Number you want to go next
+15
+
+Player is in a Cave with Otyugh
+The Otyugh health is at 50%, there is a chance you might die.
+You managed to escape the Otyugh
+Game Continues
+The player has reached end point
+Game Over!!
+Process finished with exit code 0

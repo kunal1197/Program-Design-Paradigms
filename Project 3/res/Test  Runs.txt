@@ -1,0 +1,289 @@
+RUN 1 													
+cli -> java -jar "Project 3.jar" "Kunal" 4 4 2 true 50
+
+***************************
+* Welcome to Dungeon Game *							// Wrapping Dungeon with Interconnectivity > 0
+***************************
+Enter Your Name
+Kunal
+Enter the Dungeon Length
+4
+Enter the Dungeon Breadth
+4
+Enter the Interconnectivity Degree
+2
+Is is Wrapping or not? true : false
+true
+Enter the Treasure Percentage you want in the Caves
+50
+
+The edges formed in the graph in Pairs
+[[14, 15], [1, 5], [3, 7], [3, 15], [4, 8], [8, 11], [5, 6], [1, 2], [9, 13], [10, 11], [8, 12], [6, 7], [12, 13], [0, 4], [13, 14], [6, 10], [7, 11], [2, 6], [11, 15]]
+
+The Connections of each Node.
+Node - 0, Edges -> [4]
+Node - 1, Edges -> [5, 2]
+Node - 2, Edges -> [1, 6]
+Node - 3, Edges -> [7, 15]
+Node - 4, Edges -> [8, 0]
+Node - 5, Edges -> [1, 6]
+Node - 6, Edges -> [5, 7, 10, 2]
+Node - 7, Edges -> [3, 6, 11]
+Node - 8, Edges -> [4, 11, 12]
+Node - 9, Edges -> [13]
+Node - 10, Edges -> [11, 6]
+Node - 11, Edges -> [8, 10, 7, 15]
+Node - 12, Edges -> [8, 13]
+Node - 13, Edges -> [9, 12, 14]
+Node - 14, Edges -> [15, 13]
+Node - 15, Edges -> [14, 3, 11]
+
+The Random Generated Maze
+  0C      1T--    2T      3T    
+           |       |          |       
+  4T      5T--    6C--    7C    
+        |          |     |       
+--8C--    9C      10T--   11C   
+        |     |             
+  12T--   13C--   14T--   15C   
+                    |      
+
+
+
+The Random Starting Point
+12
+
+The Random Ending Point
+1
+
+Treasure Populated in Dungeon
+Node-0 Cave - [SAPPHIRE, DIAMOND, RUBY]
+Node-1 Tunnel - []
+Node-2 Tunnel - [RUBY, SAPPHIRE]
+Node-3 Tunnel - []
+Node-4 Tunnel - []
+Node-5 Tunnel - []
+Node-6 Cave - [DIAMOND]
+Node-7 Cave - [SAPPHIRE]
+Node-8 Cave - []
+Node-9 Cave - []
+Node-10 Tunnel - []
+Node-11 Cave - []
+Node-12 Tunnel - []
+Node-13 Cave - []
+Node-14 Tunnel - []
+Node-15 Cave - []
+
+Distance it took to reach from Start to End Point
+6
+
+The Path which Player took to Reach End Point
+12->8->11->10->6->5->1
+
+The Final Treasure List Collected by the Player.
+{DIAMOND=1, RUBY=0, SAPPHIRE=0}
+
+Wow Kunal,you reached the end the of the Maze.
+Game Over!!
+
+Process finished with exit code 0
+
+*******************************************************
+RUN 2
+cli -> java -jar "Project 3.jar" "Raghav" 5 5 0 true 60
+
+***************************
+* Welcome to Dungeon Game *									// Wrapping Dungeon with Interconnectivity = 0
+***************************
+Enter Your Name
+Raghav
+Enter the Dungeon Length
+5
+Enter the Dungeon Breadth
+5
+Enter the Interconnectivity Degree
+0
+Is is Wrapping or not? true : false
+true
+Enter the Treasure Percentage you want in the Caves
+60
+
+The edges formed in the graph in Pairs
+[[5, 10], [20, 24], [3, 4], [5, 6], [11, 16], [18, 19], [1, 6], [11, 12], [10, 14], [2, 3], [12, 13], [20, 21], [15, 16], [22, 23], [0, 4], [23, 24], [17, 18], [9, 14], [4, 9], [6, 7], [1, 21], [15, 20], [14, 19], [8, 9]]
+
+The Connections of each Node.
+Node - 0, Edges -> [4]
+Node - 1, Edges -> [6, 21]
+Node - 2, Edges -> [3]
+Node - 3, Edges -> [4, 2]
+Node - 4, Edges -> [3, 0, 9]
+Node - 5, Edges -> [10, 6]
+Node - 6, Edges -> [5, 1, 7]
+Node - 7, Edges -> [6]
+Node - 8, Edges -> [9]
+Node - 9, Edges -> [14, 4, 8]
+Node - 10, Edges -> [5, 14]
+Node - 11, Edges -> [16, 12]
+Node - 12, Edges -> [11, 13]
+Node - 13, Edges -> [12]
+Node - 14, Edges -> [10, 9, 19]
+Node - 15, Edges -> [16, 20]
+Node - 16, Edges -> [11, 15]
+Node - 17, Edges -> [18]
+Node - 18, Edges -> [19, 17]
+Node - 19, Edges -> [18, 14]
+Node - 20, Edges -> [24, 21, 15]
+Node - 21, Edges -> [20, 1]
+Node - 22, Edges -> [23]
+Node - 23, Edges -> [22, 24]
+Node - 24, Edges -> [20, 23]
+
+The Random Generated Maze
+--0C--    1T      2C--    3T--    4C    
+           |             |       
+  5T--    6C--    7C      8C--    9C    
+        |                |       
+--10T     11T--   12T--   13C     14C   
+          |          |      
+  15T--   16T     17C--   18T--   19T   
+        |                
+--20C--   21T     22C--   23T--   24T   
+                |                  
+
+
+
+The Random Starting Point
+0
+
+The Random Ending Point
+20
+
+Treasure Populated in Dungeon
+Node-0 Cave - [RUBY]
+Node-1 Tunnel - []
+Node-2 Cave - [RUBY, DIAMOND]
+Node-3 Tunnel - []
+Node-4 Cave - [RUBY]
+Node-5 Tunnel - []
+Node-6 Cave - [RUBY, DIAMOND]
+Node-7 Cave - []
+Node-8 Cave - []
+Node-9 Cave - []
+Node-10 Tunnel - []
+Node-11 Tunnel - []
+Node-12 Tunnel - []
+Node-13 Cave - []
+Node-14 Cave - []
+Node-15 Tunnel - []
+Node-16 Tunnel - []
+Node-17 Cave - []
+Node-18 Tunnel - []
+Node-19 Tunnel - []
+Node-20 Cave - []
+Node-21 Tunnel - []
+Node-22 Cave - []
+Node-23 Tunnel - []
+Node-24 Tunnel - []
+
+Distance it took to reach from Start to End Point
+9
+
+The Path which Player took to Reach End Point
+0->4->9->14->10->5->6->1->21->20
+
+The Final Treasure List Collected by the Player.
+{DIAMOND=1, RUBY=3, SAPPHIRE=0}
+
+Wow Raghav,you reached the end the of the Maze.
+Game Over!!
+
+Process finished with exit code 0
+*******************************************************
+RUN 3
+cli -> java -jar "Project 3.jar" "Ayush" 4 4 0 false 50
+
+***************************
+* Welcome to Dungeon Game *									// Non-Wrapping Dungeon with Interconnectivity = 0
+***************************
+Enter Your Name
+Ayush
+Enter the Dungeon Length
+4
+Enter the Dungeon Breadth
+4
+Enter the Interconnectivity Degree
+0
+Is is Wrapping or not? true : false
+false
+Enter the Treasure Percentage you want in the Caves
+40
+
+The edges formed in the graph in Pairs
+[[4, 5], [10, 14], [0, 4], [9, 10], [8, 9], [10, 11], [8, 12], [5, 9], [3, 7], [13, 14], [2, 3], [6, 10], [1, 2], [7, 11], [14, 15]]
+
+The Connections of each Node.
+Node - 0, Edges -> [4]
+Node - 1, Edges -> [2]
+Node - 2, Edges -> [3, 1]
+Node - 3, Edges -> [7, 2]
+Node - 4, Edges -> [5, 0]
+Node - 5, Edges -> [4, 9]
+Node - 6, Edges -> [10]
+Node - 7, Edges -> [3, 11]
+Node - 8, Edges -> [9, 12]
+Node - 9, Edges -> [10, 8, 5]
+Node - 10, Edges -> [14, 9, 11, 6]
+Node - 11, Edges -> [10, 7]
+Node - 12, Edges -> [8]
+Node - 13, Edges -> [14]
+Node - 14, Edges -> [10, 13, 15]
+Node - 15, Edges -> [14]
+
+The Random Generated Maze
+  0C      1C--    2T--    3T    
+        |             |       
+  4T--    5T      6C      7T    
+              |       |       |       
+  8T--    9C--    10C--   11T   
+     |        |        
+  12C     13C--   14C--   15C   
+
+
+
+The Random Starting Point
+3
+
+The Random Ending Point
+15
+
+Treasure Populated in Dungeon
+Node-0 Cave - [RUBY]
+Node-1 Cave - [RUBY, SAPPHIRE]
+Node-2 Tunnel - []
+Node-3 Tunnel - []
+Node-4 Tunnel - []
+Node-5 Tunnel - []
+Node-6 Cave - [SAPPHIRE]
+Node-7 Tunnel - []
+Node-8 Tunnel - []
+Node-9 Cave - [RUBY, DIAMOND, RUBY]
+Node-10 Cave - [RUBY, DIAMOND, DIAMOND]
+Node-11 Tunnel - []
+Node-12 Cave - []
+Node-13 Cave - []
+Node-14 Cave - []
+Node-15 Cave - []
+
+Distance it took to reach from Start to End Point
+5
+
+The Path which Player took to Reach End Point
+3->7->11->10->14->15
+
+The Final Treasure List Collected by the Player.
+{RUBY=1, SAPPHIRE=0, DIAMOND=2}
+
+Wow Ayush,you reached the end the of the Maze.
+Game Over!!
+
+Process finished with exit code 0

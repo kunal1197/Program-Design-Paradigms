@@ -1,0 +1,7 @@
+  static String[] monkeyNameArr = {"Mike", "daisy", "hero", "messi", "ronaldo"};
+  static String[] monkeySpeciesArr = {"drill", "guerza", "howler", "saki", "drill"};
+  static String[] monkeyGenderArr = {"male", "male", "female", "female", "female"};
+  static String[] monkeySizeArr = {"LARGE", "MEDIUM", "MEDIUM", "SMALL", "LARGE"};
+  static String[] monkeyWeightArr = {"30", "25", "15", "50", "40"};
+  static String[] monkeyAgeArr = {"5", "4", "10", "12", "3"};
+  static String[] monkeyFoodArr = {"insects", "leaves", "seeds", "seeds", "nuts"};
